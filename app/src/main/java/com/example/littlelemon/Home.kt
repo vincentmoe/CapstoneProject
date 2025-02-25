@@ -142,6 +142,7 @@ fun Home(navController: NavController, menu: List<MenuItemRoom>) {
         Column {
             Text(
                 text = "ORDER FOR DELIVERY!",
+                fontWeight = FontWeight.Bold,
                 modifier = Modifier.padding(start = 40.dp, 8.dp),
                 style = MaterialTheme.typography.titleLarge
             )
